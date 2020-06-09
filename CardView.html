@@ -23,11 +23,11 @@
 <br>
 <br>
 <div class="swiper">
-<div class="swiper-container" style="height:500px;">
+<div class="swiper-container">
 <div class="swiper-wrapper" >
 
 
-<div class="swiper-slide" style="height:500px;width:376px;">
+<div class="swiper-slide" >
 <form class="card" method="post">
 <div class="top-section">
   <img id="image-container" src="images/t.jpg" name="image">
@@ -57,7 +57,7 @@
 
 
 
-<div class="swiper-slide" style="height:500px;width:376px;">
+<div class="swiper-slide">
 <div class="card">
 <div class="top-section">
   <img id="image-container1" src="images/r1.jpg">
@@ -87,7 +87,7 @@
 </div>
 
 
-<div class="swiper-slide" style="height:500px;width:376px;">
+<div class="swiper-slide" >
 <div class="card">
 <div class="top-section">
   <img id="image-container2" src="images/un.jpg">
@@ -113,7 +113,7 @@
 
 
 </div>
-<div class="swiper-slide" style="height:500px;width:376px;">
+<div class="swiper-slide">
 <div class="card">
 <div class="top-section">
   <img id="image-container3" src="images/ro.jpg">
@@ -141,7 +141,7 @@
 </div>
 
 
-<div class="swiper-slide" style="height:500px;width:376px;">
+<div class="swiper-slide">
 <div class="card">
 <div class="top-section">
   <img id="image-container6" src="images/lo.jpg">
@@ -178,6 +178,15 @@
   .swiper-slide{
     height: 200px;
     width: 50px;
+  }
+}
+  @media screen and (max-width: 900px) {
+  .swiper-container{
+    height:500px;
+  }
+  .swiper-slide{
+    height: 500px;
+    width:376px;
   }
 }
   .swiper-pagination-bullet-active {
