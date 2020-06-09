@@ -1,0 +1,101 @@
+#navbar{
+list-style-type: none; /*remove bullet points*/
+margin: 29px 0 0 0;
+padding:0;
+float:right;
+font-size: 16pt;}
+
+#navbar li{
+display:inline; /*make items horizontal*/}
+
+#navbar li a:link, #navbar li a:visited, #navbar li a:active{
+text-decoration:none;
+color:#000000;
+padding: 0 16px 0 16px;
+margin:0;
+border-right:2px #5a3939;
+text-color:#5a3939;
+	text-decoration:none;
+	text-transform:uppercase;
+	transition:.5s;
+}
+
+#navbar li a:hover{
+color:#EB6361;}
+
+#top-color-splash{
+width:100%;
+height:4px;
+background:#5a3939;}
+
+
+
+nav ul li a{
+	position:relative;
+	display:block;
+	height:100px;
+	line-height:100px;
+	font-weight:bold;
+	padding:0 20px;
+	box-sizing:border-box;
+	
+	text-color:#5a3939;
+	text-decoration:none;
+	text-transform:uppercase;
+	transition:.5s;
+}
+
+
+nav ul li a:hover{
+	
+	color:black;
+	
+}
+
+nav ul li a:before{
+	z-index:-1;
+	content:'';
+	position:absolute;
+	top:70px;
+	left:0;
+	width:100%;
+	height:2px;
+	background:#5a3939;
+	transform-origin:right;
+	transform:scaleX(0);
+	transition:transform .5s;
+}
+
+
+
+nav ul li a:hover:before{
+	
+	
+	background:#5a3939;
+	transform-origin:left;
+	transform:scaleX(1);
+
+
+
+
+.swiper{
+   background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+}
+
+ .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+
+      width: 300px;
+      height: 300px;
+    }
